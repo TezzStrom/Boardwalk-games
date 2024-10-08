@@ -21,7 +21,14 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
+}
+
+h1, h2 {
+   text-transform: uppercase;  
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -45,6 +52,17 @@ h1, h2, h3 {
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/*services*/
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 
 /*footer/contact*/
@@ -93,3 +111,36 @@ h1, h2, h3 {
     background-color: lightgray;
 } */
 
+/*media queries*/
+
+    /*medium devices (tablets, 768px and up)*/
+    @media screen and (min-width:768px){
+        /*make all services card the same height for consistency*/
+        #services .card-body {
+        min-height: 191px;
+        }
+    }  
+
+    /*medium devices (tablets, 992px and up)*/
+    @media screen and (min-width:992px){
+        /*make all services card the same height for consistency*/
+        #services .card-body {
+            min-height: 217px;
+        }   
+    }
+
+    /*medium devices (tablets, 1200px and up)*/
+    @media screen and (min-width:1200px){
+        /*make all services card the same height for consistency*/    
+        #services .card-body {
+            min-height: auto;
+        }   
+    }
+
+    /*medium devices (tablets, 1400px and up)*/
+    @media screen and (min-width:1400px){
+        /*make all services card the same height for consistency*/    
+        #services .card-body {
+            min-height: 195px;
+        }   
+    }
