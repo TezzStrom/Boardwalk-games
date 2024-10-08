@@ -90,6 +90,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Events*/
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /*footer/contact*/
 #contact {
     background-color: var(--primary-color);
