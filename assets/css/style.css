@@ -96,6 +96,10 @@ h2 {
     color: white;
 }
 
+#event-table th, #event-table td {
+    font-size: x-small;
+}
+
 /*footer/contact*/
 #contact {
     background-color: var(--primary-color);
@@ -150,6 +154,11 @@ h2 {
         #services .card-body {
         min-height: 191px;
         }
+
+        #event-table th, #event-table td {
+            font-size: initial;
+        }
+        
     }  
 
     /*medium devices (tablets, 992px and up)*/
