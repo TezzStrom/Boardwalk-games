@@ -158,7 +158,11 @@ h2 {
         #event-table th, #event-table td {
             font-size: initial;
         }
-        
+
+        #booking-games {
+            width: 540px;
+        }
+
     }  
 
     /*medium devices (tablets, 992px and up)*/
@@ -167,6 +171,11 @@ h2 {
         #services .card-body {
             min-height: 217px;
         }   
+
+        #booking-games {
+            width: 650px;
+        }
+
     }
 
     /*medium devices (tablets, 1200px and up)*/
@@ -183,4 +192,11 @@ h2 {
         #services .card-body {
             min-height: 195px;
         }   
+    }
+
+    /*medium devices (tablets, 1440px and up)*/
+    @media screen and (min-width:1440px){
+        #booking-games {
+            width: 900px;
+        }
     }
